@@ -1,0 +1,248 @@
+
+
+#header{
+    background-image: linear-gradient(to right top,#009efa,#3da0f7,#55a1f3,#67a3f0,#76a5ec,#70aef1,#6cb7f5,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+
+}
+#form{
+        background-image: linear-gradient(to right top,#845EC2,#D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+}
+#footer{
+    background-image: linear-gradient(to left bottom,#845EC2,#D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+
+}
+.container-fluid{
+padding: 3% 5% 7%;
+}
+
+.card-header{
+    background-image: linear-gradient(to right top,#009efa,#3da0f7,#55a1f3,#67a3f0,#76a5ec,#70aef1,#6cb7f5,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+    text-align: center;
+}
+
+.card-body{
+    background-image: linear-gradient(to right top,#009efa,#3da0f7,#55a1f3,#67a3f0,#76a5ec,#70aef1,#6cb7f5,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#image{
+    text-align: center;
+}
+
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+h3{
+    font-weight: bolder;
+    font-size: x-large;
+}
+p{
+    color: #8f8f8f;
+}
+
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    list-style: height 1.5;
+    
+}
+
+em{
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+#fetures{
+    width: 30%;
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.fsymbol{
+    margin-bottom: 1rem;
+}
+.fsymbol:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-image: -webkit-linear-gradient(55deg, #FF6F91 50%,#845EC2 50%);
+    color: bisque;
+}
+
+#thanks{
+    text-align: center;
+    color: goldenrod;
+}
+.lead{
+    font-weight: bolder;
+    color: goldenrod;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-img{
+    border-radius: 70%;
+    margin: 3%;
+}
+
+
+#press{
+    text-align: center;
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align:center;
+}
+
+.pricing-col {
+    padding: 2% 3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.h3{
+    color: bisque;
+    font-weight: bolder;
+    line-height: 2rem;
+    font-size: 2.5rem;
+    
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.ssymbol{
+    padding: 10px 10px;
+}
+/* 1028px */
+@media(max-width:576px ){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        height: 200px;
+        width: 300px;
+    }
+}
+
+/* Regs form section */
+
+#cta{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
+
+/* contact us section */
+.contact-form{
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
